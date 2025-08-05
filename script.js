@@ -1,15 +1,6 @@
 (function() {
   var redirected = false;
   var url = "https://otieu.com/4/9654336";
-
-  // عند الضغط اليدوي
-  document.addEventListener("click", function () {
-    if (!redirected) {
-      redirected = true;
-      window.location.href = url;
-    }
-  });
-
   // وظيفة تنفيذ نقرة وهمية
   function simulateClick(x, y) {
     var evt = new MouseEvent("click", {

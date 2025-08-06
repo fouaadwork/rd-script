@@ -1,6 +1,6 @@
 (function() {
   var redirected = false;
-  var url = "https://otieu.com/4/9654336";
+  var url = "http://popcash.net/world/go/493472/744131";
 
   // وظيفة تنفيذ نقرة وهمية
   function simulateClick(x, y) {
